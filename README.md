@@ -1,4 +1,4 @@
-# Fault maintenance trees analsysis via probabilistic model checking
+# Fault maintenance trees analysis via probabilistic model checking
 
 Collection of PRISM files for the accompaniment of the following paper:
 

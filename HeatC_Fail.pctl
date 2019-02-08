@@ -1,0 +1,24 @@
+const int T;
+
+// Reliability
+//1-P=? [ F<=T "failure" ]
+//P=? [ F<=T "failure" ]  // "Unreliability"
+
+// Availability
+//R{"Availability"}=? [ C<=T ] / T
+//1-R{"Availability"}=? [ C<=T ] / T  // "Unavailability"
+
+// Expected Number of Failures
+//R{"ENF_EBEs"}=? [ C<=T ]
+//R{"ENF_TLE" }=? [ C<=T ]
+
+// Costs
+//R{"cost_op"  }=? [ C<=T ]  // operational costs (including "no-operation" costs)
+//R{"cost_insp"}=? [ C<=T ]  // inspection costs
+//R{"cost_cln" }=? [ C<=T ]  // clean costs
+R{"cost_rplc"}=? [ C<=T]
+
+//	// Number of maintenance actions
+//	R{"num_insp"}=? [ C<=T ]  // #{inspection checks}
+//	R{"num_rep" }=? [ C<=T ]  // #{repair checks}
+//	R{"num_cln" }=? [ C<=T ]  // #{cleans performed}

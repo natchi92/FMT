@@ -28,7 +28,7 @@ Extension of this code is described in:
 
 # Credits
 
-The principal author of this tool is Nathalie Cauchi (also primary maintainer). 
+The principal author is Nathalie Cauchi (also primary maintainer). 
 However, it is a malgamation of collaboration with Carlos E. Budde, Khaza Anuaral Hoque, Arnaud van Harmelen and Alessandro abate.
 
 
